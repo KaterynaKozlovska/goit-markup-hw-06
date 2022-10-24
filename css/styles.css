@@ -497,9 +497,21 @@ img {
   color: var(--accent-color);
 }
 
+.footer-button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  min-width: 200px;
+  padding: 10px 28px;
+}
+
+.icon-send {
+}
+
 /* Net-link */
 
-.net-link-text {
+.footer-text {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
