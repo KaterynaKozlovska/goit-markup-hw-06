@@ -686,15 +686,16 @@ img {
 }
 
 .checkbox-field {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-
+  position: relative;
   margin-bottom: 30px;
 }
 
 .checkbox-icon {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 13px;
+  transform: translateY(-50%);
   border: 2px solid var(--primary-color);
   border-radius: 2px;
 
@@ -711,7 +712,7 @@ img {
 }
 
 .checkbox-label {
-  position: relative;
+  padding-left: 36px;
 
   font-size: 14px;
   line-height: 1.5;
